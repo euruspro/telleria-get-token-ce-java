@@ -1,0 +1,19 @@
+<EnvioSeed><Seed id="setSeed"><uid>88883000-6</uid><SeedValue>A0mQNMgbbvvFXggIWXGXyVG3LXDnF2EV5KAp4z7d9kRqH8EiPG</SeedValue><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>YgFyTf3+AdRwuI/QEhQA0kGZqng=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>H2t6Cq/2BdZH88pxAN7dlSB3h8LP+NLLWnJyKuGG5GtrSMw3ktHPmooc1aQmHf9XbEhoH8nF7LWg&#13;
+yaEkETvgdHUTKGDaSfCBk9HeWBH6MYXrwB5KHuq01RIAL7YO4LgXBjejez/iLLK1hcsVdZJSbYQV&#13;
+C4fZax1I+NFi4mc5/WQ=</ds:SignatureValue><ds:KeyInfo><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>u4rhg48ItYNTL1qQ1WSHAmeHRewXy+dSUGpEaDIP3r7qa1z9LYPUKjJv/XyEZLRtLHYXIDTFu/A3&#13;
++LajZTIgqruIv/Ur+L87drKQB69YJsBLw2jienX+er0kL0qyQq+hXzQaU+CTFWmiHNK6EnJkQfOl&#13;
+kSqYKrEtWRT/AI4VNTc=</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue><ds:X509Data><ds:X509Certificate>MIIDQDCCAqkCBgF22b0GUDANBgkqhkiG9w0BAQUFADCB5TEZMBcGCgmSJomT8ixkAQETCTg4NTA5&#13;
+MTktNjEoMCYGA1UEAxMfTExBVkUgQUNDRVNPIFNJU1RFTUEgODg4ODMwMDAtNjE5MDcGCSqGSIb3&#13;
+DQEJARYqY2FycGV0YXNlbGVjdHJvbmljYXMtY29ubmVjdG9yQGVkaXRyYWRlLmNsMRswGQYDVQQL&#13;
+ExJEZXB0by4gT3BlcmFjaW9uZXMxHzAdBgNVBAoTFkVkaXRyYWRlLTE2MDk5NzA4MTI0OTYxJTAj&#13;
+BgoJkiaJk/IsZAEZFhVDYXJwZXRhcyBFbGVjdHJvbmljYXMwHhcNMjEwMTA1MjIwNjUyWhcNMjYw&#13;
+MTA2MDMwMDAwWjCB5TEZMBcGCgmSJomT8ixkAQETCTg4NTA5MTktNjEoMCYGA1UEAxMfTExBVkUg&#13;
+QUNDRVNPIFNJU1RFTUEgODg4ODMwMDAtNjE5MDcGCSqGSIb3DQEJARYqY2FycGV0YXNlbGVjdHJv&#13;
+bmljYXMtY29ubmVjdG9yQGVkaXRyYWRlLmNsMRswGQYDVQQLExJEZXB0by4gT3BlcmFjaW9uZXMx&#13;
+HzAdBgNVBAoTFkVkaXRyYWRlLTE2MDk5NzA4MTI0OTYxJTAjBgoJkiaJk/IsZAEZFhVDYXJwZXRh&#13;
+cyBFbGVjdHJvbmljYXMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALuK4YOPCLWDUy9akNVk&#13;
+hwJnh0XsF8vnUlBqRGgyD96+6mtc/S2D1Coyb/18hGS0bSx2FyA0xbvwN/i2o2UyIKq7iL/1K/i/&#13;
+O3aykAevWCbAS8No4np1/nq9JC9KskKvoV80GlPgkxVpohzSuhJyZEHzpZEqmCqxLVkU/wCOFTU3&#13;
+AgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAUje4O+XbT4Bm++G/ibGiBL1Fm+kAEEztYJbqILn3Jydi&#13;
+qse0ZBnMn1Kw0KOtllZOWj0L0HYIhMgog4llr0Qh9b6ocLbpYHjt71qkFYuQFQKcTYz0xd6uQ+5G&#13;
+1wy9iUoVQ5sqv1f03vscDxn2veV16OD9t7Dl5gCuforAqt6mjlI=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></Seed></EnvioSeed>
