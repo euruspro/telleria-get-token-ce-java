@@ -50,7 +50,7 @@ public class Main {
     public static void main(String[] args) {
 
         String rutAgencia = "88883000-6";
-        String rutaPKCS12 = "tmp/firma_telleria.pfx";
+        String rutaPKCS12 = "/tmp/firma_telleria.pfx";
         String pinPKCS12 = "Mdkdhsd8763w3";
         String despacho = "884183";
 
