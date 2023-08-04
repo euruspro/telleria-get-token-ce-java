@@ -50,9 +50,9 @@ public class Main {
     public static void main(String[] args) {
 
         String rutAgencia = "88883000-6";
-        String rutaPKCS12 = "/tmp/firma_telleria.pfx";
+        String rutaPKCS12 = "tmp/firma_telleria.pfx";
         String pinPKCS12 = "Mdkdhsd8763w3";
-        String despacho = "884183";
+        String despacho = "952829";
 
         String usuarioAutenticacionWS = "ws.telleria";
         String passwordAutenticacionWS = "sMviou8763wdf$dJjh282da";
@@ -76,12 +76,14 @@ public class Main {
 
         negociarToken();
 
-//        String llaveCarpeta = getLlaveCarpeta();
-//        System.out.println("La llave del despacho: " + despacho + " es: " + llaveCarpeta);
+        String llaveCarpeta = getLlaveCarpeta();
+        System.out.println("La llave del despacho: " + despacho + " es: " + llaveCarpeta);
 
-//        String urlCarpeta = getUrlCarpeta(llaveCarpeta);
-//        System.out.println("la URL del despacho es: " + urlCarpeta);
+        String urlCarpeta = getUrlCarpeta(llaveCarpeta);
+        System.out.println("la URL del despacho es: " + urlCarpeta);
 
+        String metadataCarpeta = getMetadataCarpeta(llaveCarpeta);
+        System.out.println("Metadata Carpeta despacho es: " + metadataCarpeta);
     }
 
     public void negociarToken() throws Exception {
@@ -172,6 +174,24 @@ public class Main {
                 new KeyValue("despacho", despacho),
                 new KeyValue("llave", llaveCarpeta));
 
+        System.out.println("XML:::");
+        System.out.println(xml);
+        ResultadoWS resultado = enviarOperacionWS(xml);
+
+        if (!resultado.isExito()) {
+            throw new ValidationException("Error al obtener la url de la carpeta: " + resultado.getMensaje());
+        }
+        String url = resultado.getMensaje();
+        return url;
+    }
+
+    public String getMetadataCarpeta(String llaveCarpeta) throws Exception {
+        String xml = createXMLComando("GET_CARPETA",
+                new KeyValue("despacho", despacho),
+                new KeyValue("llave", llaveCarpeta));
+
+        System.out.println("XML:::");
+        System.out.println(xml);
         ResultadoWS resultado = enviarOperacionWS(xml);
 
         if (!resultado.isExito()) {

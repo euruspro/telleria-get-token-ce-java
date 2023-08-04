@@ -1,0 +1,66 @@
+<CarpetaElectronicaConnector>
+    <operation name='GET_CARPETA'>
+        <parameter id='despacho'>952829</parameter>
+        <parameter id='llave'>R5gsfyNIb4VGOJj</parameter>
+    </operation>
+</CarpetaElectronicaConnector>
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<carpetaEnvelope>
+<carpeta id="C97d3970952829">
+    <numeroDespacho>952829</numeroDespacho>
+    <estadoCarpeta>ABIERTA</estadoCarpeta>
+    <documentos>
+        <documento id="23932126">
+            <paginas>
+                <pagina>
+                    <urlDinamica>https%3A%2F%2Fcarpetaelectronica.editrade.cl%2FCarpetaElectronica-war%2Fb2b%2FRenderPage.do%3Fv%3D2%26p%3DWURTQ2RWTVEzKzYyTE82Rks2cG1WWUp0dnI3WWZvZUc5cmVPcTgxc3JJamdwbGt2QU1zTE9rRGo0OHEzWmFpcjk4SlpMaHdFbGwzY0RiNHoyRkU0bW0vL0tLVXJXZFVU</urlDinamica>
+                    <descripcionCara>ANVERSO</descripcionCara>
+                    <numeroHoja>1</numeroHoja>
+                    <numeroPagina>1</numeroPagina>
+                    <mimetype>PDF</mimetype>
+                </pagina>
+            </paginas>
+            <fechaCreacion>03-11-2022 6:41:04 PM</fechaCreacion>
+            <serie>1</serie>
+            <tipoDocumentoIntegracion codigoSADCOM="EXPO_0001" codigoSNA="DOCUMENTO ÚNICO DE SALIDA (FORMULARIO DE LA OPERACIÓN)" esAduanero="S" id="181">DUS</tipoDocumentoIntegracion>
+            <contentType>application/pdf</contentType>
+            <observaciones>&lt;![CDATA[110669194]]&gt;</observaciones>
+            <publicar>true</publicar>
+        </documento>
+        <documento id="23932133">
+            <paginas>
+                <pagina>
+                    <urlDinamica>https%3A%2F%2Fcarpetaelectronica.editrade.cl%2FCarpetaElectronica-war%2Fb2b%2FRenderPage.do%3Fv%3D2%26p%3DWURTQ2RWTVEzKzYyTE82Rks2cG1WWUp0dnI3WWZvZUc5cmVPcTgxc3JJajJ4dkZ6NkpkWUhVRGo0OHEzWmFpcjk4SlpMaHdFbGwzY0RiNHoyRkU0bW0vL0tLVXJXZFVU</urlDinamica>
+                    <descripcionCara>ANVERSO</descripcionCara>
+                    <numeroHoja>1</numeroHoja>
+                    <numeroPagina>1</numeroPagina>
+                    <mimetype>PDF</mimetype>
+                </pagina>
+            </paginas>
+            <fechaCreacion>03-11-2022 6:41:06 PM</fechaCreacion>
+            <serie>2</serie>
+            <tipoDocumentoIntegracion codigoSADCOM="EXPO_0039" codigoSNA="OtroCustom" esAduanero="S" id="612">DUS 1 / A TRAMITE</tipoDocumentoIntegracion>
+            <contentType>application/pdf</contentType>
+            <observaciones>&lt;![CDATA[110669194]]&gt;</observaciones>
+            <publicar>true</publicar>
+        </documento>
+        <documento id="23986580">
+            <paginas>
+                <pagina>
+                    <urlDinamica>https%3A%2F%2Fcarpetaelectronica.editrade.cl%2FCarpetaElectronica-war%2Fb2b%2FRenderPage.do%3Fv%3D2%26p%3DWURTQ2RWTVEzKzYyTE82Rks2cG1WWUp0dnI3WWZvZUc5cmVPcTgxc3JJZ1BYVGhlb3pXdXMwRGo0OHEzWmFpcjk4SlpMaHdFbGwzY0RiNHoyRkU0bW0vL0tLVXJXZFVU</urlDinamica>
+                    <descripcionCara>ANVERSO</descripcionCara>
+                    <numeroHoja>1</numeroHoja>
+                    <numeroPagina>1</numeroPagina>
+                    <mimetype>PDF</mimetype>
+                </pagina>
+            </paginas>
+            <fechaCreacion>07-11-2022 1:23:29 PM</fechaCreacion>
+            <serie>-1</serie>
+            <tipoDocumentoIntegracion codigoSADCOM="OTRO_0000" esAduanero="N" id="81">DOCUMENTO PRIVADO.</tipoDocumentoIntegracion>
+            <contentType>application/pdf</contentType>
+            <observaciones>&lt;![CDATA[-]]&gt;</observaciones>
+            <publicar>true</publicar>
+        </documento>
+    </documentos>
+</carpeta>
+</carpetaEnvelope>
