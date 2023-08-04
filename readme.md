@@ -1,4 +1,8 @@
-# Obtener Semilla para conectarse a Carpeta Elestronica
+# Conectarse a Carpeta Electrónica
+Este programa permite obtener la semilla de conexion a carpeta electrónica de telleria, para luego 
+autenticar y obtener el token de conexión.
+
+De acuerdo a la documentación de EDITRADE, el token tiene una duracción de 24 horas.
 
 ## CRON en DEBIAN
 listar tareas programadas 
