@@ -132,7 +132,8 @@ public class Main {
 
         System.out.println("El token de autenticacion es: " + tokenAutenticacion);
 
-        URL url = new URL("https://us-central1-e-telleria.cloudfunctions.net/telleria_ce");
+        // URL url = new URL("https://us-central1-e-telleria.cloudfunctions.net/telleria_ce");
+        URL url = new URL("https://tell-carpelect-http-settoken-os6ej4pxcq-uc.a.run.app");
         Map<String,String> params = new LinkedHashMap<>();
         params.put("key", tokenAutenticacion);
 
