@@ -76,19 +76,19 @@ public class Main {
 
         negociarToken();
 
-        String llaveCarpeta = getLlaveCarpeta();
-        System.out.println("La llave del despacho: " + despacho + " es: " + llaveCarpeta);
+        // String llaveCarpeta = getLlaveCarpeta();
+        // System.out.println("La llave del despacho: " + despacho + " es: " + llaveCarpeta);
 
-        String urlCarpeta = getUrlCarpeta(llaveCarpeta);
-        System.out.println("la URL del despacho es: " + urlCarpeta);
+        // String urlCarpeta = getUrlCarpeta(llaveCarpeta);
+        //System.out.println("la URL del despacho es: " + urlCarpeta);
 
-        String metadataCarpeta = getMetadataCarpeta(llaveCarpeta);
-        System.out.println("Metadata Carpeta despacho es: " + metadataCarpeta);
+        // String metadataCarpeta = getMetadataCarpeta(llaveCarpeta);
+        // System.out.println("Metadata Carpeta despacho es: " + metadataCarpeta);
     }
 
     public void negociarToken() throws Exception {
 
-        System.out.println("Negociando Token");
+        System.out.println("Negociando Token - V1.1");
         WSParameterUtils parametros = new WSParameterUtils();
 
         parametros.addParameter("rutAgencia", rutAgencia);
